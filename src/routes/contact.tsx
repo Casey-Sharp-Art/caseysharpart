@@ -47,14 +47,13 @@ function Contact() {
             netlify-honeypot="bot-field"
             onSubmit={(e) => {
               e.preventDefault()
+
               const form = e.currentTarget
-              const formData = new FormData(form)
-              fetch('/contact.html', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-                body: new URLSearchParams(
-                  formData as unknown as Record<string, string>,
-                ).toString(),
+
+              fetch("/", {
+                method: "POST",
+                headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                body: new URLSearchParams(new FormData(form) as any).toString(),
               }).then(() => setSubmitted(true))
             }}
             className="space-y-5"
