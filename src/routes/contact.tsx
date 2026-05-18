@@ -123,17 +123,17 @@ function Contact() {
           <h2 className="text-lg font-semibold text-stone-900 mb-6">Find me online</h2>
           <div className="space-y-4">
             <SocialLink
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/caseysharp.art"
               icon={<Instagram size={20} />}
               label="Instagram"
-              handle="@yourhandle"
+              handle="@caseysharp.art"
               description="Process shots, new work, and stories"
             />
             <SocialLink
-              href="https://x.com/"
+              href="https://x.com/CaseyandLines"
               icon={<Twitter size={20} />}
               label="X / Twitter"
-              handle="@yourhandle"
+              handle="@CaseyandLines"
               description="Thoughts on art, technique, and the creative life"
             />
             <SocialLink
