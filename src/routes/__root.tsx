@@ -22,7 +22,7 @@ function RootLayout() {
         <Outlet />
       </main>
       <footer className="border-t border-stone-200 mt-24 py-10 text-center text-sm text-stone-400">
-        <p>© {new Date().getFullYear()} Artist Name. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Casey Sharp. All rights reserved.</p>
       </footer>
     </div>
   )
