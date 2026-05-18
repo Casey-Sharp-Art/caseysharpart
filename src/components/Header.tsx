@@ -6,7 +6,7 @@ export function Header() {
     <header className="sticky top-0 z-50 bg-white/90 backdrop-blur-sm border-b border-stone-200">
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         <Link to="/" className="text-xl font-semibold tracking-tight text-stone-900 hover:text-stone-600 transition-colors">
-          Artist Name
+          Casey Sharp
         </Link>
 
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-stone-600">
@@ -20,7 +20,7 @@ export function Header() {
 
         <div className="flex items-center gap-4">
           <a
-            href="https://www.instagram.com/"
+            href="https://www.instagram.com/caseysharp.art"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
@@ -29,7 +29,7 @@ export function Header() {
             <Instagram size={18} />
           </a>
           <a
-            href="https://x.com/"
+            href="https://x.com/CaseyandLines"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="X / Twitter"
