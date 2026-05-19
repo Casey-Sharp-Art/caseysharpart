@@ -317,23 +317,23 @@ footer {
   background: linear-gradient(to bottom right, #e7e5e4, #a8a29e);
 }
 
-.collection {
+.Collection {
   margin-bottom: 4rem;
 }
 
-.collection-header {
+.Collection-header {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   margin-bottom: 1.5rem;
 }
 
-.collection-header a {
+.Collection-header a {
   font-size: 0.9rem;
   color: #666;
   text-decoration: none;
 }
 
-.collection-header a:hover {
+.Collection-header a:hover {
   color: black;
 }
