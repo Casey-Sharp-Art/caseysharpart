@@ -30,6 +30,12 @@ function Contact() {
   }
 
   return (
+    <>
+    <form name="contact" data-netlify="true" hidden>
+    <input type="text" name="name" />
+    <input type="email" name="email" />
+    <textarea name="message"></textarea>
+    </form>
     <div className="max-w-4xl mx-auto px-6 py-16">
       <h1 className="text-4xl md:text-5xl font-bold text-stone-900 mb-4">Get in Touch</h1>
       <p className="text-xl text-stone-500 mb-16 max-w-lg leading-relaxed">
@@ -146,6 +152,7 @@ function Contact() {
         </div>
       </div>
     </div>
+    </>
   )
 }
 
