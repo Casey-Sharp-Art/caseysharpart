@@ -1,1 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Casey Sharp</title>
 
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- HEADER (static version of your Header.tsx idea) -->
+  <header class="header">
+    <div class="container header-inner">
+
+      <a href="index.html" class="logo">
+        Casey Sharp
+      </a>
+
+      <nav class="nav">
+        <a href="index.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="socials">
+        <a href="https://www.instagram.com/caseysharp.art" target="_blank">Instagram</a>
+        <a href="https://x.com/CaseyandLines" target="_blank">Twitter</a>
+        <a href="https://cara.app/" target="_blank">Cara</a>
+      </div>
+
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- TITLE SECTION -->
+    <section class="hero">
+      <h1>Get in Touch</h1>
+
+      <p class="subtext">
+        For commissions, print inquiries, collaborations, or just to say hello.
+      </p>
+    </section>
+
+    <!-- TWO COLUMN LAYOUT -->
+    <div class="two-col">
+
+      <!-- CONTACT FORM -->
+      <section>
+        <h2>Send a message</h2>
+
+        <form
+          name="contact"
+          method="POST"
+          action="mailto:you@yourdomain.com"
+          enctype="text/plain"
+        >
+
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+
+          <label>
+            Email
+            <input type="email" name="email" placeholder="you@example.com" required />
+          </label>
+
+          <label>
+            Message
+            <textarea name="message" rows="6" placeholder="Tell me about your project..." required></textarea>
+          </label>
+
+          <button type="submit">
+            Send Message
+          </button>
+
+        </form>
+      </section>
+
+      <!-- SOCIAL LINKS -->
+      <section>
+        <h2>Find me online</h2>
+
+        <a class="card-link" href="https://www.instagram.com/caseysharp.art" target="_blank">
+          <strong>Instagram</strong>
+          <p>@caseysharp.art — Process shots, new work, stories</p>
+        </a>
+
+        <a class="card-link" href="https://x.com/CaseyandLines" target="_blank">
+          <strong>X / Twitter</strong>
+          <p>@CaseyandLines — Thoughts on art and process</p>
+        </a>
+
+        <a class="card-link" href="https://cara.app/" target="_blank">
+          <strong>Cara</strong>
+          <p>AI-free portfolio and social for artists</p>
+        </a>
+
+      </section>
+
+    </div>
+
+  </main>
+
+</body>
+</html>
