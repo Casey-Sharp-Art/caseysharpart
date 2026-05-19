@@ -257,14 +257,14 @@ p {
 }
 
 /* =========================
-   COLLECTIONS
+   CollectionS
 ========================= */
 
-.collection {
+.Collection {
   margin-bottom: 7rem;
 }
 
-.collection-header {
+.Collection-header {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
@@ -272,7 +272,7 @@ p {
   margin-bottom: 2rem;
 }
 
-.collection-header a {
+.Collection-header a {
   color: var(--muted);
 
   text-decoration: none;
@@ -280,7 +280,7 @@ p {
   transition: color 0.2s ease;
 }
 
-.collection-header a:hover {
+.Collection-header a:hover {
   color: var(--text);
 }
 
