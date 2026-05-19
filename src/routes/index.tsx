@@ -92,11 +92,10 @@ function PortfolioHome() {
       {/* Hero */}
       <div className="mb-20">
         <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-stone-900 leading-none mb-6">
-          Artist Name
+          Casey Sharp
         </h1>
         <p className="text-xl text-stone-500 max-w-xl leading-relaxed">
-          Original paintings, watercolors, digital illustrations, and photography.
-          Works available for purchase and commission.
+          Casey Sharp is a visual artist working in painting and mixed media. Living with neurodivergence and disability, they approach image-making as a way of exploring memory, perception, and emotional change. Their work often takes on a surreal, atmospheric quality, using drips, layering, and soft distortion to reflect internal experience and the shifting way meaning is formed and lost.
         </p>
       </div>
 
