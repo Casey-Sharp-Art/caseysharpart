@@ -30,12 +30,6 @@ function Contact() {
   }
 
   return (
-    <>
-    <form name="contact" data-netlify="true" hidden>
-    <input type="text" name="name" />
-    <input type="email" name="email" />
-    <textarea name="message"></textarea>
-    </form>
     <div className="max-w-4xl mx-auto px-6 py-16">
       <h1 className="text-4xl md:text-5xl font-bold text-stone-900 mb-4">Get in Touch</h1>
       <p className="text-xl text-stone-500 mb-16 max-w-lg leading-relaxed">
@@ -53,13 +47,14 @@ function Contact() {
             netlify-honeypot="bot-field"
             onSubmit={(e) => {
               e.preventDefault()
-
               const form = e.currentTarget
-
-              fetch("/", {
-                method: "POST",
-                headers: { "Content-Type": "application/x-www-form-urlencoded" },
-                body: new URLSearchParams(new FormData(form) as any).toString(),
+              const formData = new FormData(form)
+              fetch('/contact.html', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: new URLSearchParams(
+                  formData as unknown as Record<string, string>,
+                ).toString(),
               }).then(() => setSubmitted(true))
             }}
             className="space-y-5"
@@ -128,17 +123,17 @@ function Contact() {
           <h2 className="text-lg font-semibold text-stone-900 mb-6">Find me online</h2>
           <div className="space-y-4">
             <SocialLink
-              href="https://www.instagram.com/caseysharp.art"
+              href="https://www.instagram.com/"
               icon={<Instagram size={20} />}
               label="Instagram"
-              handle="@caseysharp.art"
+              handle="@yourhandle"
               description="Process shots, new work, and stories"
             />
             <SocialLink
-              href="https://x.com/CaseyandLines"
+              href="https://x.com/"
               icon={<Twitter size={20} />}
               label="X / Twitter"
-              handle="@CaseyandLines"
+              handle="@yourhandle"
               description="Thoughts on art, technique, and the creative life"
             />
             <SocialLink
@@ -152,7 +147,6 @@ function Contact() {
         </div>
       </div>
     </div>
-    </>
   )
 }
 
