@@ -39,25 +39,23 @@ function Contact() {
       <div className="grid md:grid-cols-2 gap-16">
         {/* Contact form */}
         <div>
-          <h2 className="text-lg font-semibold text-stone-900 mb-6">Send a message</h2>
-         <div className="space-y-4">
-  <h2 className="text-lg font-semibold text-stone-900 mb-6">
-    Send a message
-  </h2>
-
-  <p className="text-stone-500">
-    For commissions, collaborations, or inquiries, email me directly.
-  </p>
-
-  <a
-    href="mailto:you@yourdomain.com"
-    className="inline-flex items-center gap-2 px-6 py-3 bg-stone-900 text-white rounded-lg hover:bg-stone-700 transition-colors text-sm font-medium"
-  >
-    <Send size={15} />
-    Email Me
-  </a>
-</div>
+          <h2 className="text-lg font-semibold text-stone-900 mb-6">
+            Send a message
+          </h2>
+          <div className="space-y-4">
+          <p className="text=stone-500">
+            For commissions, collaborations, or inquiries, email me directly.
+          </p>
+          <a
+            href="mailto:caseysharp@caseysharpart.com"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-stone-900 text-white rounded-lg hover:bg-stone-700 transition-colors text-sm font-medium"
+            >
+              <Send size={15} />
+              Email Me
+            </a>
+          </div>
         </div>
+       </div>
 
         {/* Social links */}
         <div>
