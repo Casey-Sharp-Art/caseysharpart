@@ -1,18 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Casey Sharp</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Casey Sharp</title>
 
-    <!-- optional but normal for Vite apps -->
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-  </head>
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
-  <body>
-    <div id="root"></div>
+<body>
 
-    <!-- THIS is what actually starts your React app -->
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header-inner">
+
+      <a href="index.html" class="logo">
+        Casey Sharp
+      </a>
+
+      <nav class="nav">
+        <a href="index.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="socials">
+        <a href="https://www.instagram.com/caseysharp.art" target="_blank">Instagram</a>
+        <a href="https://x.com/CaseyandLines" target="_blank">Twitter</a>
+        <a href="https://cara.app/" target="_blank">Cara</a>
+      </div>
+
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- HERO -->
+    <section class="hero">
+      <h1>Casey Sharp</h1>
+
+      <p>
+        Casey Sharp is a visual artist working in painting and mixed media. Living with neurodivergence and disability, they approach image-making as a way of exploring memory, perception, and emotional change. Their work often takes on a surreal, atmospheric quality, using drips, layering, and soft distortion to reflect internal experience and the shifting way meaning is formed and lost.
+      </p>
+    </section>
+
+    <!-- COLLECTION: OIL PAINTINGS -->
+    <section class="Collection">
+      <div class="collection-header">
+        <h2>Webtoon</h2>
+        <a href="Collections/Webtoon.html">View all</a>
+      </div>
+
+      <div class="grid">
+
+        <article class="card">
+          <div class="placeholder amber"></div>
+          <h3>Artwork Title</h3>
+          <p>2025</p>
+        </article>
+
+        <article class="card">
+          <div class="placeholder amber"></div>
+          <h3>Artwork Title</h3>
+          <p>2024</p>
+        </article>
+
+        <article class="card">
+          <div class="placeholder amber"></div>
+          <h3>Artwork Title</h3>
+          <p>2023</p>
+        </article>
+
+        <article class="card">
+          <div class="placeholder amber"></div>
+          <h3>Artwork Title</h3>
+          <p>2023</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- COLLECTION: WATERCOLOURS -->
+    <section class="Collection">
+      <div class="collection-header">
+        <h2>Bodies of Water, Bodies of Feeling</h2>
+        <a href="Collections/Bodies of Water, Bodies of Feeling.html">View all</a>
+      </div>
+
+      <div class="grid">
+
+        <article class="card">
+          <div class="placeholder blue"></div>
+          <h3>Artwork Title</h3>
+          <p>2025</p>
+        </article>
+
+        <article class="card">
+          <div class="placeholder blue"></div>
+          <h3>Artwork Title</h3>
+          <p>2024</p>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+</body>
 </html>
