@@ -9,7 +9,8 @@ body {
   background-color: #C1DDD3;
   }
 
-.header-inner {
+.header-inner,
+.footer-inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
