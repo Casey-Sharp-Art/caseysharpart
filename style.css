@@ -171,6 +171,103 @@ body {
   cursor: pointer;
   color: #4C3F54;
 }
-  
-  
+
+/* CONTACT PAGE LAYOUT */
+
+.two-col {
+  display: flex;
+  gap: 24px;
+  padding: 14px 16px 48px 16px;
+  align-items: flex-start;
+}
+
+/* makes mobile stack nicely */
+@media (max-width: 768px) {
+  .two-col {
+    flex-direction: column;
+  }
+}
+
+/* both columns */
+.two-col section {
+  flex: 1;
+}
+
+/* form styling */
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: #4C3F54;
+}
+
+input,
+textarea {
+  padding: 14px 16px;
+  border: none;
+  background-color: #DDEBE5;
+  color: #4C3F54;
+  font: inherit;
+  box-shadow: 0px 4px 10px #827E80;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  padding: 14px 16px;
+  border: none;
+  background-color: #A2CCBD;
+  color: #4C3F54;
+  cursor: pointer;
+  box-shadow: 0px 4px 10px #827E80;
+  font: inherit;
+  transition: transform 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+/* SOCIAL CARDS */
+
+.social-card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.social-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 16px;
+  background-color: #A2CCBD;
+  text-decoration: none;
+  color: #4C3F54;
+  box-shadow: 0px 4px 10px #827E80;
+  transition: transform 0.2s ease;
+}
+
+.social-card:hover {
+  transform: translateY(-2px);
+}
+
+.social-card img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.social-card p {
+  margin-top: 4px;
+}
   
