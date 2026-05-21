@@ -53,5 +53,86 @@
   max-height: 24px;
   }
   
+.container {
+  background-color: #D3CCD0;
+  }
+
+.hero {
+  width: 100%;
+  padding: 0 40px;
+  }
+
+.hero h1 {
+  font-family: 'Super Mystery', serif;
+  text-align: left;
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #4C3F54;
+  }
+
+.hero p {
+  max-width: 700px;
+  margin-left: auto;
+  }
+
+.Collection-header h2 {
+  margin: 0 0 5px 0;
+}
+
+.Collection-subheader h3 {
+  margin: 0 0 20px 0;
+  font-weight: normal;
+}
+
+/* wrapper for arrows + grid */
+.carousel-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 20px;
+}
+
+/* horizontal scrolling row */
+.grid {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  padding: 10px 0;
+}
+
+/* cards */
+.card {
+  min-width: 200px;
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card h4 {
+  margin: 10px 0 5px;
+}
+
+.card p {
+  margin: 0;
+}
+
+/* arrows */
+.scroll-left,
+.scroll-right {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #4C3F54;
+}
+  
   
   
