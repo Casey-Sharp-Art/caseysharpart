@@ -90,7 +90,7 @@ body {
 
 @media (max-width: 768px) {
   .hero p,
-  .Artist-Statement {
+  .Artist-Statement p {
     width: 100%;
     max-width: 100%;
     padding: 0 20px;
@@ -115,7 +115,7 @@ body {
   color: #4C3F54;
 }
 
-.Artist-Statement {
+.Artist-Statement p {
   max-width: 500px;
   padding: 14px 16px;
   margin: 0 auto 0 0;
