@@ -6,7 +6,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: C1DDD3
+  background-color: #C1DDD3;
   }
 
 .header-inner {
@@ -74,21 +74,22 @@ body {
   font-family: 'Super Mystery', serif;
   text-align: left;
   display: block;
-  padding: 14px 32px;
+  padding: 28px 16px;
   text-decoration: none;
   color: #4C3F54;
   }
 
 .hero p {
   max-width: 500px;
-  padding: 28px 8px;
-  margin-right: auto;
+  padding: 14px 8px;
+  margin: 0 auto 0 0;
   }
 
 .Collection-header h2 {
   text-align: left;
   display: block;
-  padding: 14px 0px;
+  margin: 0;
+  padding: 14px 16px;
   text-decoration: none;
   color: #4C3F54;
 }
