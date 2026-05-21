@@ -23,11 +23,9 @@
 }
 
 .nav {
-  list-style-type: none; 
-  justify-content: center; 
-  margin: 0; 
-  padding: 0; 
   display: flex;
+  gap: 10px;
+  margin: 0 auto;
   }
 
 .nav a {
@@ -51,8 +49,8 @@
   }
 
 .socials img {
-  width: 24px;
-  height: auto;
+  max-width: 24px;
+  max-height: 24px;
   }
   
   
