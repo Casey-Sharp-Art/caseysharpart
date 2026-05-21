@@ -23,9 +23,11 @@
 }
 
 .nav {
+  list-style-type: none; 
+  justify-content: center; 
+  margin: 0; 
+  padding: 0; 
   display: flex;
-  gap: 10px;
-  margin: 0 auto;
   }
 
 .nav a {
@@ -46,6 +48,11 @@
 .socials a {
   display: block;
   padding: 14px 16px;
+  }
+
+.socials img {
+  width: 24px;
+  height: auto;
   }
   
   
