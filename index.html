@@ -111,5 +111,21 @@
 
   </main>
 
+    <!-- all your page content above -->
+
+  <script>
+    const grid = document.querySelector('.grid');
+
+    document.querySelector('.scroll-right').onclick = () => {
+      grid.scrollBy({ left: 300, behavior: 'smooth' });
+    };
+
+    document.querySelector('.scroll-left').onclick = () => {
+      grid.scrollBy({ left: -300, behavior: 'smooth' });
+    };
+  </script>
+
+</body>
+
 </body>
 </html>
