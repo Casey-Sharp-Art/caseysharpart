@@ -248,7 +248,7 @@ button:hover {
 .social-card {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 24px;
   padding: 14px 16px;
   background-color: #A2CCBD;
   text-decoration: none;
@@ -262,9 +262,8 @@ button:hover {
 }
 
 .social-card img {
-  width: 32px;
-  height: 32px;
-  object-fit: contain;
+  width: 24px;
+  height: 24px;
 }
 
 .social-card p {
