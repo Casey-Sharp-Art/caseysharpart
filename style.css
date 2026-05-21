@@ -3,12 +3,15 @@
   src: url('SuperMystery-BLG4x.ttf') format('truetype');
 }
 
+body {
+  background-color: C1DDD3
+
 .header-inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
   box-shadow: 0px 4px 10px #827E80;
-  background-color: #D3CCD0;
+  background-color: #C1DDD3;
   margin: 0;
   padding: 0;
   }
@@ -54,7 +57,7 @@
   }
   
 .container {
-  background-color: #D3CCD0;
+  background-color: #C1DDD3;
   }
 
 .hero {
@@ -98,7 +101,7 @@
   justify-content: space-between;
   align-items: center;
   box-shadow: 0px 4px 10px #827E80;
-  background-color: #D3CCD0;
+  background-color: #C1DDD3;
   margin: 0;
   padding: 0;
 }
