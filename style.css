@@ -20,6 +20,13 @@ body {
   padding: 14px 16px;
   }
 
+@media (max-width: 768px) {
+  .header-inner,
+  .footer-inner {
+    flex-wrap: wrap;
+  }
+}
+
 .logo {
   font-family: 'Super Mystery', serif;
   text-align: left;
