@@ -275,4 +275,19 @@ button:hover {
 .social-card p {
   margin-top: 4px;
 }
-  
+
+.shop-button {
+  background-color: #A2CCBD;
+  color: #4C3F54;
+  padding: 14px 16px;
+  border: none;
+  box-shadow: 0px 4px 10px #827E80;
+  font: inherit;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.shop-button:hover {
+  transform: translateY(-2px);
+  background-color: #B7D9CE;
+}
