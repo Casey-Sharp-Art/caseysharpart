@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'Super Mystery';
-  src: url('SuperMystery-BLG4x.ttf') format('truetype');
+  font-family: 'Handwriting';
+  src: url('MyHandwriting-Regular.ttf') format('truetype');
 }
 
 body {
@@ -28,7 +28,7 @@ body {
 }
 
 .logo {
-  font-family: 'Super Mystery', serif;
+  font-family: 'Handwriting', serif;
   text-align: left;
   display: block;
   padding: 14px 16px;
@@ -94,7 +94,7 @@ body {
 }
 
 .hero-text h1 {
-  font-family: 'Super Mystery', serif;
+  font-family: 'Handwriting', serif;
   text-align: left;
   color: #4C3F54;
   margin: 0 0 10px 0;
@@ -162,6 +162,7 @@ body {
 }
 
 .world-card h2 {
+    font-family: 'Handwriting', serif;
     margin-top: 0;
     color: #4C3F54;
 }
