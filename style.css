@@ -133,86 +133,77 @@ body {
 }
 
 @media (max-width: 768px) {
-  .hero p,
-  .Artist-Statement p {
+  .hero p, {
     max-width: 80%;
     padding: 0 20px;
     margin: 0;
   }
 }
 
-.Collection-header h2 {
-  text-align: left;
-  display: block;
-  margin: 0;
-  padding: 14px 16px;
-  text-decoration: none;
-  color: #4C3F54;
+.world-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    margin: 32px 0;
 }
 
-.Collection-subheader h3 {
-  text-align: left;
-  display: block;
-  padding: 14px 16px;
-  text-decoration: none;
-  color: #4C3F54;
+.world-card {
+    background: #A2CCBD;
+    box-shadow: 0px 4px 10px #827E80;
+    padding: 24px;
+    text-align: center;
 }
 
-.Artist-Statement p {
-  max-width: 500px;
-  padding: 14px 16px;
-  margin: 0 auto 24px 0;
+.world-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin: 20px 0;
 }
 
-/* wrapper for arrows + grid */
-.carousel-wrapper {
-  display: flex;
-  align-items: center;
-  gap: 24px;
-  background-color: #A2CCBD;
-  box-shadow: 0px 4px 10px #827E80;
-  margin-bottom: 24px;
+.world-card h2 {
+    margin-top: 0;
+    color: #4C3F54;
 }
 
-/* horizontal scrolling row */
-.grid {
-  display: flex;
-  gap: 24px;
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  scroll-snap-type: x mandatory;
-  padding: 14px 16px;
+.world-button {
+    display: block;
+    background: #C1DDD3;
+    color: #4C3F54;
+    text-decoration: none;
+    padding: 14px 16px;
+    margin-top: 16px;
+    box-shadow: 0px 4px 10px #827E80;
+    transition: transform .2s ease;
 }
 
-/* cards */
-.card {
-  max-width: 180px;
-  flex: 0 0 auto;
-  scroll-snap-align: start;
+.world-button:hover {
+    transform: translateY(-2px);
 }
 
-.card img {
-  width: 100%;
-  height: auto;
-  display: block;
+.secondary {
+    background: #DDEBE5;
 }
 
-.card h4 {
-  margin: 10px 0 5px;
+.world-wide {
+    grid-column: 1 / -1;
 }
 
-.card p {
-  margin: 0;
+.coming-soon {
+    font-size: 1.2rem;
+    padding: 24px 0;
+    color: #4C3F54;
 }
 
-/* arrows */
-.scroll-left,
-.scroll-right {
-  background: none;
-  border: none;
-  font-size: 2rem;
-  cursor: pointer;
-  color: #4C3F54;
+@media (max-width: 768px) {
+
+    .world-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .world-wide {
+        grid-column: auto;
+    }
 }
 
 /* CONTACT PAGE LAYOUT */
