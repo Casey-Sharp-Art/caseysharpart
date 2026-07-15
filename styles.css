@@ -241,6 +241,91 @@ body {
 }
 
 
+.sign-text {
+
+    position:absolute;
+
+    font-family:"MyFont", cursive;
+
+    text-align:center;
+
+    color:#5f4f56;
+
+    z-index:15;
+
+}
+
+
+/* Welcome sign */
+
+.welcome-to {
+
+    left:200px;
+
+    top:500px;
+
+    width:250px;
+
+    height:50px;
+
+}
+
+
+
+.casey-sharp {
+
+    left:200px;
+
+    top:600px;
+
+    width:250px;
+
+    height:40px;
+
+}
+
+
+
+.art-text {
+
+    left:200px;
+
+    top:680px;
+
+    width:250px;
+
+    height:40px;
+
+}
+
+
+
+/* Garden sign */
+
+.garden-text {
+
+    left:412px;
+
+    top:1175px;
+
+    width:113px;
+
+    height:90px;
+
+}
+
+
+
+/* Shed clickable area */
+
+.shed-door a {
+
+    position:absolute;
+
+    inset:0;
+
+}
+
 
 
 /* =========================
