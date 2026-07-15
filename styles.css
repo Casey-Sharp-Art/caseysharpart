@@ -1,0 +1,609 @@
+/* =========================
+   Casey Sharp Art
+   Global Styles
+========================= */
+
+
+@font-face {
+
+    font-family: "MyFont";
+
+    src: url("assets/Myfont-Regular.ttf");
+
+}
+
+
+
+:root {
+
+    --purple: #5f4f56;
+    --green: #4d6236;
+    --teal: #4e7c74;
+    --peach: #cfa98c;
+    --gold: #dfc98c;
+
+    --cream: #f5efe5;
+    --dark: #302832;
+
+}
+
+
+
+* {
+
+    box-sizing: border-box;
+
+}
+
+
+
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+
+
+body {
+
+    margin: 0;
+
+    background: var(--cream);
+
+    color: var(--dark);
+
+    font-family: sans-serif;
+
+}
+
+
+
+
+
+/* =========================
+   Loading Screen
+========================= */
+
+
+#loading-screen {
+
+    position: fixed;
+
+    inset: 0;
+
+    background: var(--green);
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    z-index: 9999;
+
+    animation: fadeOut 1.2s forwards;
+
+    animation-delay: .5s;
+
+}
+
+
+
+#loading-screen p {
+
+    color: white;
+
+    font-size: 1.2rem;
+
+}
+
+
+
+@keyframes fadeOut {
+
+    to {
+
+        opacity: 0;
+
+        pointer-events: none;
+
+    }
+
+}
+
+
+
+
+
+/* =========================
+   Navigation
+========================= */
+
+
+.hidden-nav {
+
+    position: fixed;
+
+    top: 10px;
+
+    right: 20px;
+
+    z-index: 50;
+
+}
+
+
+
+.hidden-nav a {
+
+    color: var(--purple);
+
+    text-decoration: none;
+
+    margin-left: 15px;
+
+}
+
+
+
+
+
+/* =========================
+   Illustrated Scene System
+========================= */
+
+
+.scene-page {
+
+    width: 100%;
+
+    overflow-x: hidden;
+
+}
+
+
+
+.scene-container {
+
+    position: relative;
+
+    width: 900px;
+
+    margin: auto;
+
+    transform-origin: top center;
+
+}
+
+
+
+.scene-background,
+
+.season-layer {
+
+    width: 900px;
+
+    display: block;
+
+}
+
+
+
+
+
+/* =========================
+   Responsive World Scaling
+========================= */
+
+
+@media(max-width:900px){
+
+
+.scene-container {
+
+    transform: scale(calc(100vw / 900));
+
+    transform-origin: top center;
+
+}
+
+
+.scene-page {
+
+    height: calc(100vw * 2);
+
+}
+
+
+}
+
+
+
+
+
+/* =========================
+   Interactive Objects
+========================= */
+
+
+.interactive {
+
+    position: absolute;
+
+    cursor: pointer;
+
+}
+
+
+
+.popup {
+
+    position: absolute;
+
+    background: rgba(245,239,229,.95);
+
+    color: var(--purple);
+
+    padding: 15px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,.25);
+
+    width: 220px;
+
+    opacity: 0;
+
+    pointer-events: none;
+
+    transition: .2s ease;
+
+}
+
+
+
+.interactive:hover .popup,
+
+.interactive:focus .popup {
+
+    opacity: 1;
+
+}
+
+
+
+
+
+/* =========================
+   Welcome Popup
+========================= */
+
+
+.social-links {
+
+    display:flex;
+
+    gap:15px;
+
+    justify-content:center;
+
+}
+
+
+
+.social-links img {
+
+    width:35px;
+
+    height:35px;
+
+    object-fit:contain;
+
+}
+
+
+
+
+
+/* =========================
+   Homepage Coordinates
+========================= */
+
+
+.welcome-sign {
+
+    left:200px;
+
+    top:500px;
+
+    width:250px;
+
+    height:250px;
+
+}
+
+
+
+.nature-door {
+
+    left:100px;
+
+    top:1200px;
+
+    width:125px;
+
+    height:300px;
+
+}
+
+
+
+.garden-sign {
+
+    left:425px;
+
+    top:1175px;
+
+}
+
+
+
+.shed-door {
+
+    left:700px;
+
+    top:1125px;
+
+    width:90px;
+
+    height:375px;
+
+}
+
+
+
+
+
+
+
+/* =========================
+   Nature Page ACEOs
+========================= */
+
+
+.aceo {
+
+    position:absolute;
+
+    width:60px;
+
+    aspect-ratio: 5 / 7;
+
+    cursor:pointer;
+
+    transition:.2s ease;
+
+}
+
+
+
+.aceo img {
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    display:block;
+
+    box-shadow:0 3px 8px rgba(0,0,0,.3);
+
+}
+
+
+
+.aceo:hover {
+
+    transform:scale(1.08);
+
+    z-index:10;
+
+}
+
+
+
+
+
+/* ACEO Positions */
+
+
+.rock-pile {
+
+    left:90px;
+
+    top:162px;
+
+    transform:rotate(-8deg);
+
+}
+
+
+
+.clothesline-left {
+
+    left:430px;
+
+    top:525px;
+
+    transform:rotate(12deg);
+
+}
+
+
+
+.clothesline-right {
+
+    left:650px;
+
+    top:525px;
+
+    transform:rotate(-12deg);
+
+}
+
+
+
+.bench-one {
+
+    left:150px;
+
+    top:1200px;
+
+    transform:rotate(-3deg);
+
+}
+
+
+
+.bench-two {
+
+    left:200px;
+
+    top:1200px;
+
+    transform:rotate(3deg);
+
+}
+
+
+
+.shed-art {
+
+    left:700px;
+
+    top:1125px;
+
+    transform:rotate(2deg);
+
+}
+
+
+
+.future-placement {
+
+    left:140px;
+
+    top:750px;
+
+}
+
+
+
+
+
+.hidden-aceo-one,
+
+.hidden-aceo-two {
+
+    display:none;
+
+}
+
+
+
+
+
+
+/* =========================
+   Archive Page
+========================= */
+
+
+.archive-page {
+
+    min-height:100vh;
+
+    padding:40px;
+
+}
+
+
+
+.archive-header {
+
+    margin-bottom:40px;
+
+}
+
+
+
+.archive-grid {
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+
+    gap:30px;
+
+}
+
+
+
+.archive-piece img {
+
+    width:100%;
+
+    display:block;
+
+    border-radius:10px;
+
+    transition:.2s ease;
+
+}
+
+
+
+.archive-piece:hover img {
+
+    transform:scale(1.04);
+
+}
+
+
+
+
+
+.empty-archive {
+
+    text-align:center;
+
+    padding:80px;
+
+    color:var(--purple);
+
+}
+
+
+
+
+
+/* =========================
+   Mobile Touch Support
+========================= */
+
+
+@media(max-width:600px){
+
+
+.popup {
+
+    width:180px;
+
+    font-size:.9rem;
+
+}
+
+
+}
