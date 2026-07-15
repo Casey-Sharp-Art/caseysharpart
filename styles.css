@@ -388,6 +388,10 @@ body {
 
     inset:0;
 
+    display:block;
+
+    z-index:50;
+
 }
 
 
