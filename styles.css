@@ -256,14 +256,6 @@ body {
    width: 900px;
    z-index: 1;
 }
-
-.nature-scene .nature-season {
-   position: absolute;
-   left: 0;
-   top: 0;
-   width: 900px;
-   z-index: 2;
-}
    
 
 .sign-text {
