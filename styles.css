@@ -185,6 +185,33 @@ body {
     left:0;
 }
 
+.summer-trees {
+    position:absolute;
+    left:0;
+    top:0;
+}
+
+
+.summer-right-meadow {
+    position:absolute;
+    left:650px;
+    top:600px;
+}
+
+
+.summer-left-meadow {
+    position:absolute;
+    left:0;
+    top:650px;
+}
+
+
+.butterfly-layer {
+    position:absolute;
+    left:0;
+    top:650px;
+}
+
 
 .scene-container {
 
