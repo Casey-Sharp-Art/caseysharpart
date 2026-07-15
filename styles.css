@@ -608,7 +608,7 @@ body {
 
     left:90px;
 
-    bottom:175px;
+    top:185px;
 
     transform:rotate(-8deg);
 
@@ -622,7 +622,7 @@ body {
 
     top:550px;
 
-    transform:rotate(12deg);
+    transform:rotate(-12deg);
 
 }
 
@@ -634,7 +634,7 @@ body {
 
     top:640px;
 
-    transform:rotate(-12deg);
+    transform:rotate(12deg);
 
 }
 
@@ -644,7 +644,7 @@ body {
 
     left:110px;
 
-    bottom:1255px;
+    top:1270px;
 
     transform:rotate(-3deg);
 
@@ -654,9 +654,9 @@ body {
 
 .bench-two {
 
-    right:280px;
+    left:235px;
 
-    bottom:1250px;
+    top:1270px;
 
     transform:rotate(3deg);
 
@@ -666,9 +666,9 @@ body {
 
 .shed-art {
 
-    left:700px;
+    left:610px;
 
-    top:1125px;
+    top:650px;
 
     transform:rotate(2deg);
 
@@ -678,9 +678,9 @@ body {
 
 .future-placement {
 
-    right:140px;
+    left:540px;
 
-    top:750px;
+    top:600px;
 
 }
 
