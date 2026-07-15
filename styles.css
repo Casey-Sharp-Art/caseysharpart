@@ -442,6 +442,8 @@ body {
 
     transition: .2s ease;
 
+    z-index: 100;
+
 }
 
 
@@ -541,6 +543,10 @@ body {
     width:90px;
 
     height:375px;
+
+    position: absolute;
+
+    z-index: 20;
 
 }
 
