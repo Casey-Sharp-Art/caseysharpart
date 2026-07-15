@@ -179,15 +179,49 @@ body {
 
 
 .scene-background,
-
 .season-layer {
 
+    position: absolute;
+
     width: 900px;
+
+    height: auto;
+
+    top: 0;
+
+    left: 0;
 
     display: block;
 
 }
 
+
+.scene-container {
+
+    position: relative;
+
+    width: 900px;
+
+    margin: auto;
+
+    aspect-ratio: 900 / 1600;
+
+    overflow: hidden;
+
+}
+
+.homepage-scene {
+
+    height: 1600px;
+
+}
+
+
+.nature-scene {
+
+    height: 1600px;
+
+}
 
 
 
