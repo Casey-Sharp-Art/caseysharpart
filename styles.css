@@ -394,6 +394,22 @@ body {
 
 }
 
+.shed-door {
+
+    display:block;
+
+    position:absolute;
+
+    z-index:50;
+
+}
+
+.shed-door .popup {
+
+    pointer-events:none;
+
+}
+
 
 
 /* =========================
