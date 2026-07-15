@@ -607,3 +607,11 @@ body {
 
 
 }
+
+.popup.show {
+
+    opacity:1;
+
+    pointer-events:auto;
+
+}
