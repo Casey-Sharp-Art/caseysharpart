@@ -739,7 +739,14 @@ body {
 
 
 
-.hidden-aceo-one,
+.hidden-aceo-one {
+
+   left: 75px;
+
+   top: 600px;
+}
+
+
 
 .hidden-aceo-two {
 
