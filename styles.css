@@ -750,7 +750,9 @@ body {
 
 .hidden-aceo-two {
 
-    display:none;
+    left: 525px;
+
+    top: 325px;
 
 }
 
