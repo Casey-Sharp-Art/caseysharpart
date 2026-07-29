@@ -378,6 +378,31 @@ body {
 
 }
 
+/* =========================
+   Thimblewell Homepage
+========================= */
+
+.thimblewell-sign{
+    left:425px;
+    top:800px;
+    width:187px;
+    height:75px;
+}
+
+.thimblewell-text{
+    left:0;
+    top:0;
+    width:187px;
+    height:75px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    font-size:24px;
+    line-height:1.1;
+}
+
 
 
 /* Shed clickable area */
@@ -501,6 +526,11 @@ body {
 
 }
 
+.thimblewell-popup{
+    left:20px;
+    top:-170px;
+    width:240px;
+}
 
 
 
@@ -595,7 +625,32 @@ body {
 
 }
 
+.thimblewell-arrow{
+    position:absolute;
 
+    left:840px;
+    top:1090px;
+
+    width:48px;
+    height:48px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:40px;
+    text-decoration:none;
+
+    color:var(--purple);
+
+    z-index:40;
+
+    transition:.2s ease;
+}
+
+.thimblewell-arrow:hover{
+    transform:translateX(5px);
+}
 
 
 
