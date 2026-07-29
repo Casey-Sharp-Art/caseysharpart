@@ -390,8 +390,8 @@ body {
 }
 
 .thimblewell-text{
-    left:0;
-    top:0;
+    left:425;
+    top:800;
     width:187px;
     height:75px;
 
@@ -629,7 +629,7 @@ body {
     position:absolute;
 
     left:840px;
-    top:1090px;
+    top:1100px;
 
     width:48px;
     height:48px;
