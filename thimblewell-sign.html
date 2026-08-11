@@ -1,1 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Thimblewell Hollow</title>
+
+  <style>
+    body {
+      margin: 0;
+      background: #5f4f56;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .scene {
+      position: relative;
+      width: 900px;
+      height: 750px;
+    }
+
+    .scene img {
+      width: 900px;
+      height: 750px;
+      display: block;
+    }
+
+    /* Navigation arrow */
+    .path-arrow {
+      position: absolute;
+
+      /* Starting position */
+      left: 870px;
+      top: 500px;
+
+      font-size: 42px;
+      text-decoration: none;
+
+      color: #dfc98c;
+
+      /* Makes the arrow easier to see */
+      text-shadow:
+        2px 2px 4px #4d6236,
+        -1px -1px 2px #4d6236;
+
+      cursor: pointer;
+
+      /* Gentle floating animation */
+      animation: floatArrow 1.5s ease-in-out infinite;
+    }
+
+    .path-arrow:hover {
+      transform: scale(1.2);
+    }
+
+    @keyframes floatArrow {
+      0%, 100% {
+        transform: translateY(0);
+      }
+
+      50% {
+        transform: translateY(8px);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="scene">
+
+    <img
+      src="Thimblewell Hollow Sign.png"
+      alt="Welcome to Thimblewell Hollow"
+    >
+
+    <!-- Clickable path arrow -->
+    <a
+      href="thimblewell-well.html"
+      class="path-arrow"
+      aria-label="Follow the path to the well"
+    >
+      ↓
+    </a>
+
+  </div>
+
+</body>
+</html>
 
