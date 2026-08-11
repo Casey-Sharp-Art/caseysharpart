@@ -1,1 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>The Thimblewell</title>
+
+  <style>
+    body {
+      margin: 0;
+      background: #5f4f56;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .scene {
+      position: relative;
+      width: 900px;
+      height: 750px;
+    }
+
+    .scene img {
+      width: 900px;
+      height: 750px;
+      display: block;
+    }
+
+    /* Navigation arrow */
+    .path-arrow {
+      position: absolute;
+
+      /* Centered between x=750 and x=850 */
+      left: 780px;
+      top: 325px;
+
+      font-size: 42px;
+      text-decoration: none;
+
+      color: #dfc98c;
+
+      text-shadow:
+        2px 2px 4px #4d6236,
+        -1px -1px 2px #4d6236;
+
+      cursor: pointer;
+
+      animation: floatArrow 1.5s ease-in-out infinite;
+    }
+
+    .path-arrow:hover {
+      transform: scale(1.2);
+    }
+
+    @keyframes floatArrow {
+      0%, 100% {
+        transform: translateY(0);
+      }
+
+      50% {
+        transform: translateY(-8px);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="scene">
+
+    <img
+      src="The-Thimble-Well.png"
+      alt="The Thimblewell"
+    >
+
+    <!-- Clickable path arrow -->
+    <a
+      href="thimblewell-cafe.html"
+      class="path-arrow"
+      aria-label="Follow the path to the cafe"
+    >
+      ↑
+    </a>
+
+  </div>
+
+</body>
+</html>
 
